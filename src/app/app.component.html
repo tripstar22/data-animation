@@ -1,3 +1,7 @@
 <h1>
   {{title}}
 </h1>
+
+<ul>
+	<li class="text" *ngFor="let d of data | async">{{d.dataValue}}</li>
+</ul>
